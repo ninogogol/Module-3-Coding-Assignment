@@ -1,0 +1,50 @@
+.bg-dark {
+    background-color: #9E9E9E!important;
+    border: 2px solid black;
+    padding: 0;
+}
+.navbar-dark  .navbar-brand{
+	color: #000;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 1%;
+}
+.navbar-nav .nav-link{
+	color: black!important;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid black;
+	margin: 0px 1px;
+	background: white;
+}
+.navbar-dark .navbar-toggler-icon{
+	border: 1px solid black;
+}
+h1{
+	text-align: center;
+	margin: 30px;
+	color: black;
+	font-weight: bold;
+}
+h4{
+	text-align: center;
+	font-weight: bold;
+	background: #9E9E9E;
+	margin-bottom: 0;
+	padding: 10px;
+	color: #000000;
+}
+p{
+	background: #9E9E9E;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-weight: bold;
+}
+@media (min-width: 768px){
+.navbar-expand-md .navbar-nav .nav-link {
+   /* padding-right: .5rem;
+    padding-left: .5rem;*/
+    visibility: collapse;
+    }
+}
