@@ -4,25 +4,26 @@
     padding: 0;
 }
 .navbar-dark  .navbar-brand{
-	color: #000;
+	color: #000!important;
     font-weight: bold;
     font-size: xx-large;
     padding-left: 1%;
 }
 .navbar-nav .nav-link{
 	color: black!important;
+	background: white;
 	font-weight: bold;
 	text-align: center;
 	border-bottom: 1px solid black;
 	margin: 0px 1px;
-	background: white;
+	
 }
 .navbar-dark .navbar-toggler-icon{
 	border: 1px solid black;
 }
 h1{
 	text-align: center;
-	margin: 30px;
+	margin: 50px;
 	color: black;
 	font-weight: bold;
 }
